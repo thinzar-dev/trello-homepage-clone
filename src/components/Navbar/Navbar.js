@@ -22,7 +22,7 @@ function Navbar() {
     return (
         <header>
             <div className="header-wrapper">
-                <a aria-current="page" href="/home" className="header-logo">
+                <a aria-current="page" href="/" className="header-logo">
                     <svg aria-label="Atlassian Trello" height="37.5" role="img" viewBox="0 0 312 105" width="111.42857142857143" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="header-logo-svg">
                         <linearGradient id="trello-logo-gradient-defaultMJFtCCgVhXrVl7v9HA7EH" x1="49.992%" x2="49.992%" y1="100%" y2=".016%">
                             <stop offset="0" stop-color="#0052cc"></stop>
@@ -52,11 +52,11 @@ function Navbar() {
                 </a>
                 <div className="nav-menu-wrapper">
                     <nav ref={navRef} className='nav-links' onClick={closeNavbar}>
-                        <a href="/#workflows" className="header-pricing-link">Workflows</a>
-                        <a href="/#views" className="header-pricing-link">Views</a>
-                        <a href="/#features" className="header-pricing-link">Features</a>
-                        <a href="/#plans" className="header-pricing-link">Plans</a>
-                        <a href="/#survey" className="header-pricing-link">Survey</a>
+                        <a href="/#workflows" className="header-link">Workflows</a>
+                        <a href="/#views" className="header-link">Views</a>
+                        <a href="/#features" className="header-link">Features</a>
+                        <a href="/#plans" className="header-link">Plans</a>
+                        <a href="/#survey" className="header-link">Survey</a>
                         <div className="header-trello-started responsive-started">
                             <a href="https://trello.com/login" className="header-trello-login">Log in</a>
                             <a href="https://trello.com/signup" className="header-trello-signup header-btn-signup">Get Trello for free</a>

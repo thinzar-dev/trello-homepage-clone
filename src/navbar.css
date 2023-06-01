@@ -44,7 +44,7 @@ header {
     position: relative;
 }
 
-.header-pricing-link {
+.header-link {
     -webkit-box-align: center;
     align-items: center;
     align-self: stretch;
@@ -167,7 +167,7 @@ nav a:hover {
         border-bottom: 1px solid rgb(223, 225, 230);
     }
 
-    .nav-links a.header-pricing-link:first-child {
+    .nav-links a.header-link:first-child {
         border-top: 1px solid rgb(223, 225, 230);
     }
 
